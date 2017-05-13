@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Travel Journal</string>
+    <string name="title_activity_photos">Photos</string>
+    <string name="title_activity_details">Details</string>
+</resources>

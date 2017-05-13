@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">#e5e5e5</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="colorControlNormal">@color/text_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Full" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">#e5e5e5</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="colorControlNormal">@color/text_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="FullWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SemiBold" parent="android:TextAppearance">
+        <item name="fontPath">SourceSansPro-Semibold.otf</item>
+    </style>
+
+    <style name="Regular" parent="android:TextAppearance">
+        <item name="fontPath">SourceSansPro-Regular.otf</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
